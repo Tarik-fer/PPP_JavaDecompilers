@@ -1,0 +1,16 @@
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+final class d implements PropertyChangeListener {
+  private Object a;
+
+d(reflex paramreflex) {}
+  
+  public final void propertyChange(PropertyChangeEvent paramPropertyChangeEvent) { reflex.a(this.a, paramPropertyChangeEvent); }
+}
+
+
+/* Location:              C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\reflexTestObfuscated\reflexTestObfuscated.jar!\d.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.2
+ */

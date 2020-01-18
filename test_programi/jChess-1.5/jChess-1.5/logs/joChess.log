@@ -1,0 +1,604 @@
+2019-12-15 17:32:32 GUI [DEBUG] THEME: default
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:36 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 GUI [DEBUG] THEME: default
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 Settings [DEBUG] Locale: en
+2019-12-15 17:32:52 GameClock [DEBUG] Present number of tabs: 1
+2019-12-15 17:32:52 DrawLocalSettings [DEBUG] this.time4Game.getActionCommand(): comboBoxChanged
+2019-12-15 17:32:52 DrawLocalSettings [DEBUG] ****************
+Starting new game: asdf vs. CPU
+time 4 game: 0
+time limit set: false
+white on top?: false
+****************
+2019-12-15 17:32:53 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:32:53 Chessboard [DEBUG] active_x: 5 active_y: 7
+2019-12-15 17:32:54 Chessboard2D [DEBUG] square_x: 5.0 square_y: 5.0
+2019-12-15 17:32:54 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:32:54 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:32:54 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:32:54 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:32:54 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:32:54 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:32:54 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:32:56 Chessboard2D [DEBUG] square_x: 6.0 square_y: 7.0
+2019-12-15 17:32:56 Chessboard [DEBUG] active_x: 6 active_y: 7
+2019-12-15 17:32:56 Chessboard2D [DEBUG] square_x: 6.0 square_y: 7.0
+2019-12-15 17:32:59 Chessboard2D [DEBUG] square_x: 8.0 square_y: 7.0
+2019-12-15 17:32:59 Chessboard [DEBUG] active_x: 8 active_y: 7
+2019-12-15 17:33:00 Chessboard2D [DEBUG] square_x: 8.0 square_y: 5.0
+2019-12-15 17:33:00 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:00 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:01 Chessboard2D [DEBUG] square_x: 8.0 square_y: 8.0
+2019-12-15 17:33:01 Chessboard [DEBUG] active_x: 8 active_y: 8
+2019-12-15 17:33:01 Chessboard2D [DEBUG] square_x: 8.0 square_y: 6.0
+2019-12-15 17:33:01 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:01 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:02 Chessboard2D [DEBUG] square_x: 8.0 square_y: 6.0
+2019-12-15 17:33:02 Chessboard [DEBUG] active_x: 8 active_y: 6
+2019-12-15 17:33:03 Chessboard2D [DEBUG] square_x: 8.0 square_y: 6.0
+2019-12-15 17:33:04 Chessboard2D [DEBUG] square_x: 7.0 square_y: 8.0
+2019-12-15 17:33:04 Chessboard [DEBUG] active_x: 7 active_y: 8
+2019-12-15 17:33:04 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:33:04 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:04 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:17 Chessboard2D [DEBUG] square_x: 2.0 square_y: 7.0
+2019-12-15 17:33:17 Chessboard [DEBUG] active_x: 2 active_y: 7
+2019-12-15 17:33:20 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:33:20 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:20 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:21 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:33:21 Chessboard [DEBUG] active_x: 3 active_y: 8
+2019-12-15 17:33:21 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:33:21 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:21 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:24 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:33:24 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:33:25 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:33:26 Chessboard2D [DEBUG] square_x: 5.0 square_y: 8.0
+2019-12-15 17:33:26 Chessboard [DEBUG] active_x: 5 active_y: 8
+2019-12-15 17:33:26 Chessboard2D [DEBUG] square_x: 5.0 square_y: 8.0
+2019-12-15 17:33:28 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:28 Chessboard [DEBUG] active_x: 2 active_y: 8
+2019-12-15 17:33:29 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:33:29 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:29 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:30 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:33:30 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:33:31 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:31 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:31 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:33 Chessboard2D [DEBUG] square_x: 5.0 square_y: 8.0
+2019-12-15 17:33:33 Chessboard [DEBUG] active_x: 5 active_y: 8
+2019-12-15 17:33:33 Chessboard2D [DEBUG] square_x: 5.0 square_y: 8.0
+2019-12-15 17:33:34 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:34 Chessboard [DEBUG] active_x: 2 active_y: 8
+2019-12-15 17:33:35 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:36 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:36 Chessboard [DEBUG] active_x: 2 active_y: 8
+2019-12-15 17:33:37 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:33:37 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:37 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:38 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:33:38 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:33:39 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:33:39 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:39 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:39 Chessboard2D [DEBUG] square_x: 5.0 square_y: 8.0
+2019-12-15 17:33:39 Chessboard [DEBUG] active_x: 5 active_y: 8
+2019-12-15 17:33:39 Chessboard2D [DEBUG] square_x: 2.0 square_y: 8.0
+2019-12-15 17:33:40 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:33:40 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:40 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:43 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:33:43 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:33:43 Chessboard2D [DEBUG] square_x: 4.0 square_y: 5.0
+2019-12-15 17:33:43 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:43 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:44 Chessboard2D [DEBUG] square_x: 5.0 square_y: 5.0
+2019-12-15 17:33:44 Chessboard [DEBUG] active_x: 5 active_y: 5
+2019-12-15 17:33:44 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:33:44 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:44 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:45 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:33:45 Chessboard [DEBUG] active_x: 6 active_y: 6
+2019-12-15 17:33:47 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:33:47 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:33:47 Chessboard [DEBUG] active_x: 3 active_y: 6
+2019-12-15 17:33:48 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:33:48 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:33:48 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:33:53 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:33:53 Chessboard [DEBUG] active_x: 6 active_y: 6
+2019-12-15 17:33:53 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:33:56 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:33:56 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:34:00 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:34:01 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:34:01 Chessboard [DEBUG] active_x: 3 active_y: 7
+2019-12-15 17:34:03 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:03 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:03 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:06 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:34:06 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:34:07 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:34:07 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:07 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:08 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:34:08 Chessboard [DEBUG] active_x: 6 active_y: 6
+2019-12-15 17:34:11 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:34:14 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:14 Chessboard [DEBUG] active_x: 1 active_y: 6
+2019-12-15 17:34:17 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:18 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:18 Chessboard [DEBUG] active_x: 1 active_y: 6
+2019-12-15 17:34:18 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:34:18 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:18 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:19 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:34:19 Chessboard [DEBUG] active_x: 2 active_y: 6
+2019-12-15 17:34:19 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:34:19 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:19 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:21 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:34:21 Chessboard [DEBUG] active_x: 3 active_y: 8
+2019-12-15 17:34:22 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:34:22 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:34:22 Chessboard [DEBUG] active_x: 5 active_y: 7
+2019-12-15 17:34:27 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:34:28 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:34:28 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:34:30 Chessboard2D [DEBUG] square_x: 1.0 square_y: 7.0
+2019-12-15 17:34:30 Chessboard [DEBUG] active_x: 1 active_y: 7
+2019-12-15 17:34:31 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:31 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:31 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:32 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:34:32 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:34:33 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:34:33 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:33 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:35 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:34:35 Chessboard [DEBUG] active_x: 5 active_y: 7
+2019-12-15 17:34:38 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:34:38 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:38 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:39 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:34:39 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:34:40 Chessboard2D [DEBUG] square_x: 6.0 square_y: 4.0
+2019-12-15 17:34:40 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:40 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:41 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:34:41 Chessboard [DEBUG] active_x: 2 active_y: 5
+2019-12-15 17:34:43 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:34:43 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:34:43 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:34:44 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:44 Chessboard [DEBUG] active_x: 1 active_y: 6
+2019-12-15 17:34:45 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:34:46 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:34:46 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:34:46 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:34:47 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:34:47 Chessboard [DEBUG] active_x: 6 active_y: 8
+2019-12-15 17:34:49 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:49 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:34:51 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:34:52 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:52 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:52 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:34:53 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:34:53 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:54 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:54 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:34:56 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:34:57 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:34:57 Chessboard [DEBUG] active_x: 6 active_y: 6
+2019-12-15 17:35:01 Chessboard2D [DEBUG] square_x: 7.0 square_y: 4.0
+2019-12-15 17:35:01 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:01 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:03 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:03 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:35:04 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:05 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:05 Chessboard [DEBUG] active_x: 6 active_y: 8
+2019-12-15 17:35:05 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:06 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:35:06 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:35:07 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:07 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:07 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:07 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:07 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:35:08 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:08 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:35:09 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:09 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:09 Chessboard [DEBUG] active_x: 6 active_y: 8
+2019-12-15 17:35:10 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:10 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:35:10 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:35:11 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:35:11 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:11 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:12 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:12 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:35:13 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:14 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:14 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:35:15 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:15 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:15 Chessboard [DEBUG] active_x: 6 active_y: 8
+2019-12-15 17:35:18 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:19 Chessboard2D [DEBUG] square_x: 6.0 square_y: 4.0
+2019-12-15 17:35:19 Chessboard [DEBUG] active_x: 6 active_y: 4
+2019-12-15 17:35:24 Chessboard2D [DEBUG] square_x: 3.0 square_y: 1.0
+2019-12-15 17:35:24 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:24 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:25 Chessboard2D [DEBUG] square_x: 3.0 square_y: 1.0
+2019-12-15 17:35:25 Chessboard [DEBUG] active_x: 3 active_y: 1
+2019-12-15 17:35:26 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:35:26 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:26 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:27 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:35:27 Chessboard [DEBUG] active_x: 3 active_y: 4
+2019-12-15 17:35:28 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:35:30 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:35:30 Chessboard [DEBUG] active_x: 1 active_y: 6
+2019-12-15 17:35:30 Chessboard2D [DEBUG] square_x: 1.0 square_y: 5.0
+2019-12-15 17:35:30 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:30 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:31 Chessboard2D [DEBUG] square_x: 3.0 square_y: 4.0
+2019-12-15 17:35:31 Chessboard [DEBUG] active_x: 3 active_y: 4
+2019-12-15 17:35:32 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:32 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:32 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:34 Chessboard2D [DEBUG] square_x: 6.0 square_y: 8.0
+2019-12-15 17:35:34 Chessboard [DEBUG] active_x: 6 active_y: 8
+2019-12-15 17:35:36 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:36 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:36 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:39 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:39 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:35:41 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:41 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:41 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:35:41 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:42 Chessboard2D [DEBUG] square_x: 8.0 square_y: 6.0
+2019-12-15 17:35:42 Chessboard [DEBUG] active_x: 8 active_y: 6
+2019-12-15 17:35:46 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:35:46 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:46 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:49 Chessboard2D [DEBUG] square_x: 1.0 square_y: 5.0
+2019-12-15 17:35:49 Chessboard [DEBUG] active_x: 1 active_y: 5
+2019-12-15 17:35:51 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:35:51 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:51 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:51 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:35:51 Chessboard [DEBUG] active_x: 2 active_y: 6
+2019-12-15 17:35:54 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:35:54 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:54 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:35:56 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:35:57 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:35:57 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:35:58 Chessboard2D [DEBUG] square_x: 3.0 square_y: 2.0
+2019-12-15 17:35:58 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:58 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:35:58 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:35:58 Chessboard [DEBUG] active_x: 2 active_y: 6
+2019-12-15 17:35:59 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:35:59 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:35:59 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:02 Chessboard2D [DEBUG] square_x: 1.0 square_y: 6.0
+2019-12-15 17:36:02 Chessboard [DEBUG] active_x: 1 active_y: 6
+2019-12-15 17:36:03 Chessboard2D [DEBUG] square_x: 1.0 square_y: 8.0
+2019-12-15 17:36:03 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:03 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:04 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:04 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:36:04 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:04 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:04 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:06 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:36:06 Chessboard [DEBUG] active_x: 3 active_y: 8
+2019-12-15 17:36:07 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:36:07 Chessboard2D [DEBUG] square_x: 1.0 square_y: 8.0
+2019-12-15 17:36:07 Chessboard [DEBUG] active_x: 1 active_y: 8
+2019-12-15 17:36:09 Chessboard2D [DEBUG] square_x: 1.0 square_y: 8.0
+2019-12-15 17:36:10 Chessboard2D [DEBUG] square_x: 3.0 square_y: 2.0
+2019-12-15 17:36:10 Chessboard [DEBUG] active_x: 3 active_y: 2
+2019-12-15 17:36:13 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:36:13 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:13 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:15 Chessboard2D [DEBUG] square_x: 1.0 square_y: 8.0
+2019-12-15 17:36:15 Chessboard [DEBUG] active_x: 1 active_y: 8
+2019-12-15 17:36:17 Chessboard2D [DEBUG] square_x: 1.0 square_y: 7.0
+2019-12-15 17:36:17 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:17 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:18 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:36:18 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:36:20 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:20 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:36:21 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:21 Chessboard2D [DEBUG] square_x: 6.0 square_y: 7.0
+2019-12-15 17:36:21 Chessboard [DEBUG] active_x: 6 active_y: 7
+2019-12-15 17:36:22 Chessboard2D [DEBUG] square_x: 6.0 square_y: 5.0
+2019-12-15 17:36:22 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:22 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:24 Chessboard2D [DEBUG] square_x: 6.0 square_y: 5.0
+2019-12-15 17:36:24 Chessboard [DEBUG] active_x: 6 active_y: 5
+2019-12-15 17:36:25 Chessboard2D [DEBUG] square_x: 6.0 square_y: 5.0
+2019-12-15 17:36:26 Chessboard2D [DEBUG] square_x: 6.0 square_y: 5.0
+2019-12-15 17:36:26 Chessboard [DEBUG] active_x: 6 active_y: 5
+2019-12-15 17:36:27 Chessboard2D [DEBUG] square_x: 6.0 square_y: 5.0
+2019-12-15 17:36:28 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:36:28 Chessboard [DEBUG] active_x: 2 active_y: 4
+2019-12-15 17:36:29 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:36:30 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:36:30 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:36:30 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:36:31 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:31 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:36:33 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:34 Chessboard2D [DEBUG] square_x: 3.0 square_y: 8.0
+2019-12-15 17:36:34 Chessboard [DEBUG] active_x: 3 active_y: 8
+2019-12-15 17:36:35 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:35 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:35 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:35 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:35 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:36:37 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:37 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:36:38 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:36:38 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:38 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:39 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:36:39 Chessboard [DEBUG] active_x: 4 active_y: 7
+2019-12-15 17:36:39 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:39 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:39 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:40 Chessboard2D [DEBUG] square_x: 5.0 square_y: 7.0
+2019-12-15 17:36:40 Chessboard [DEBUG] active_x: 5 active_y: 7
+2019-12-15 17:36:41 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:41 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:41 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:42 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:42 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:36:43 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:36:43 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:43 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:44 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:44 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:36:45 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:46 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:46 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:36:49 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:49 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:36:49 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:36:50 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:36:50 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:50 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:51 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:36:51 Chessboard [DEBUG] active_x: 3 active_y: 6
+2019-12-15 17:36:53 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:36:53 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:36:53 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:36:54 Chessboard2D [DEBUG] square_x: 4.0 square_y: 5.0
+2019-12-15 17:36:54 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:54 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:54 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:36:54 Chessboard [DEBUG] active_x: 3 active_y: 6
+2019-12-15 17:36:55 Chessboard2D [DEBUG] square_x: 1.0 square_y: 5.0
+2019-12-15 17:36:55 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:55 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:56 Chessboard2D [DEBUG] square_x: 4.0 square_y: 5.0
+2019-12-15 17:36:56 Chessboard [DEBUG] active_x: 4 active_y: 5
+2019-12-15 17:36:57 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:36:57 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:36:57 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:36:59 Chessboard2D [DEBUG] square_x: 1.0 square_y: 5.0
+2019-12-15 17:36:59 Chessboard [DEBUG] active_x: 1 active_y: 5
+2019-12-15 17:37:02 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:37:02 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:02 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:03 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:37:03 Chessboard [DEBUG] active_x: 3 active_y: 6
+2019-12-15 17:37:04 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:37:04 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:37:04 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:37:05 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:05 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:05 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:07 Chessboard2D [DEBUG] square_x: 7.0 square_y: 7.0
+2019-12-15 17:37:07 Chessboard [DEBUG] active_x: 7 active_y: 7
+2019-12-15 17:37:08 Chessboard2D [DEBUG] square_x: 6.0 square_y: 6.0
+2019-12-15 17:37:08 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:08 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:11 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:11 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:37:12 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:37:12 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:12 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:13 Chessboard2D [DEBUG] square_x: 4.0 square_y: 8.0
+2019-12-15 17:37:13 Chessboard [DEBUG] active_x: 4 active_y: 8
+2019-12-15 17:37:15 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:15 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:15 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:17 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:17 Chessboard [DEBUG] active_x: 3 active_y: 7
+2019-12-15 17:37:18 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:18 Chessboard2D [DEBUG] square_x: 3.0 square_y: 6.0
+2019-12-15 17:37:18 Chessboard [DEBUG] active_x: 3 active_y: 6
+2019-12-15 17:37:21 Chessboard2D [DEBUG] square_x: 5.0 square_y: 5.0
+2019-12-15 17:37:21 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:21 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:22 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:22 Chessboard [DEBUG] active_x: 3 active_y: 7
+2019-12-15 17:37:22 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:23 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:23 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:37:25 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:25 Chessboard2D [DEBUG] square_x: 2.0 square_y: 4.0
+2019-12-15 17:37:25 Chessboard [DEBUG] active_x: 2 active_y: 4
+2019-12-15 17:37:25 Chessboard2D [DEBUG] square_x: 2.0 square_y: 3.0
+2019-12-15 17:37:25 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:25 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:28 Chessboard2D [DEBUG] square_x: 2.0 square_y: 3.0
+2019-12-15 17:37:28 Chessboard [DEBUG] active_x: 2 active_y: 3
+2019-12-15 17:37:28 Chessboard2D [DEBUG] square_x: 2.0 square_y: 2.0
+2019-12-15 17:37:28 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:28 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:29 Chessboard2D [DEBUG] square_x: 2.0 square_y: 2.0
+2019-12-15 17:37:29 Chessboard [DEBUG] active_x: 2 active_y: 2
+2019-12-15 17:37:29 Chessboard2D [DEBUG] square_x: 2.0 square_y: 1.0
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:29 GUI [DEBUG] THEME: default
+2019-12-15 17:37:30 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:30 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:32 Chessboard2D [DEBUG] square_x: 2.0 square_y: 1.0
+2019-12-15 17:37:32 Chessboard [DEBUG] active_x: 2 active_y: 1
+2019-12-15 17:37:33 Chessboard2D [DEBUG] square_x: 2.0 square_y: 3.0
+2019-12-15 17:37:33 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:33 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:35 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:35 Chessboard [DEBUG] active_x: 3 active_y: 7
+2019-12-15 17:37:36 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:37:36 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:36 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:37 Chessboard2D [DEBUG] square_x: 5.0 square_y: 5.0
+2019-12-15 17:37:37 Chessboard [DEBUG] active_x: 5 active_y: 5
+2019-12-15 17:37:37 Chessboard2D [DEBUG] square_x: 4.0 square_y: 7.0
+2019-12-15 17:37:37 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:37 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:44 Chessboard2D [DEBUG] square_x: 4.0 square_y: 4.0
+2019-12-15 17:37:44 Chessboard [DEBUG] active_x: 4 active_y: 4
+2019-12-15 17:37:44 Chessboard2D [DEBUG] square_x: 4.0 square_y: 5.0
+2019-12-15 17:37:44 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:44 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:45 Chessboard2D [DEBUG] square_x: 2.0 square_y: 3.0
+2019-12-15 17:37:45 Chessboard [DEBUG] active_x: 2 active_y: 3
+2019-12-15 17:37:45 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:37:45 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:45 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:46 Chessboard2D [DEBUG] square_x: 4.0 square_y: 5.0
+2019-12-15 17:37:46 Chessboard [DEBUG] active_x: 4 active_y: 5
+2019-12-15 17:37:48 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:37:48 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:48 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:50 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:37:50 Chessboard [DEBUG] active_x: 2 active_y: 5
+2019-12-15 17:37:51 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:37:52 Chessboard2D [DEBUG] square_x: 2.0 square_y: 6.0
+2019-12-15 17:37:52 Chessboard2D [DEBUG] square_x: 2.0 square_y: 5.0
+2019-12-15 17:37:52 Chessboard [DEBUG] active_x: 2 active_y: 5
+2019-12-15 17:37:54 Chessboard2D [DEBUG] square_x: 4.0 square_y: 6.0
+2019-12-15 17:37:54 Chessboard [DEBUG] active_x: 4 active_y: 6
+2019-12-15 17:37:55 Chessboard2D [DEBUG] square_x: 5.0 square_y: 6.0
+2019-12-15 17:37:55 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:55 Game [DEBUG] next move, active player: asdf, color: WHITE, type: LOCAL_USER
+2019-12-15 17:37:57 Chessboard2D [DEBUG] square_x: 3.0 square_y: 5.0
+2019-12-15 17:37:57 Chessboard [DEBUG] active_x: 3 active_y: 5
+2019-12-15 17:37:59 Chessboard2D [DEBUG] square_x: 3.0 square_y: 7.0
+2019-12-15 17:37:59 Game [DEBUG] next move, active player: CPU, color: BLACK, type: COMPUTER
+2019-12-15 17:37:59 Game [DEBUG] Stalemate! Draw!
+2019-12-15 17:38:10 GameClock [DEBUG] Removing tab with 0 number!...
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 Settings [DEBUG] Locale: en
+2019-12-15 17:38:12 GameClock [DEBUG] Present number of tabs: 1
+2019-12-15 17:38:12 DrawLocalSettings [DEBUG] this.time4Game.getActionCommand(): comboBoxChanged
+2019-12-15 17:38:12 DrawLocalSettings [DEBUG] ****************
+Starting new game: asdf vs. CPU
+time 4 game: 0
+time limit set: false
+white on top?: false
+****************

@@ -1,0 +1,12 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+final class g implements Runnable {
+   public final void run() {
+      try {
+         (new reflex()).setVisible(true);
+      } catch (InterruptedException var2) {
+         Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, (String)null, var2);
+      }
+   }
+}

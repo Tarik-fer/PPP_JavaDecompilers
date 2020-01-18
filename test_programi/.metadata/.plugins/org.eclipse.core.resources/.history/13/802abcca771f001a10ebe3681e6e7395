@@ -1,0 +1,175 @@
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.beans.PropertyChangeEvent;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.LayoutStyle;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+
+public class reflex extends JFrame {
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+private static JButton c;
+  
+  private static JPanel d;
+  
+  private Box.Filler e;
+  
+  private static JTextArea f;
+  
+  private JLabel g;
+  
+  private JLabel h;
+  
+  private JLabel i;
+  
+  private JLabel j;
+  
+  private JLabel k;
+  
+  private JPanel l;
+  
+  private JPanel m;
+  
+  private JPanel n;
+  
+  private JScrollPane o;
+  
+  private static JLabel p;
+  
+  private static JButton q;
+  
+  private static JButton r;
+  
+  private JLabel s;
+  
+//  private long a() { return this.b - this.a; }
+  
+  public reflex() {
+    reflex reflex1;
+    (reflex1 = this).e = new Box.Filler(new Dimension(0, 0), new Dimension(0, 0), new Dimension(0, 32767));
+    reflex1.l = new JPanel();
+    reflex1.g = new JLabel();
+    reflex1.k = new JLabel();
+    reflex1.i = new JLabel();
+    reflex1.m = new JPanel();
+    reflex1.h = new JLabel();
+    reflex1.o = new JScrollPane();
+    f = new JTextArea();
+    reflex1.s = new JLabel();
+    reflex1.j = new JLabel();
+    p = new JLabel();
+    reflex1.n = new JPanel();
+    r = new JButton();
+    d = new JPanel();
+    c = new JButton();
+    q = new JButton();
+    reflex1.setDefaultCloseOperation(3);
+    reflex1.l.setBorder(BorderFactory.createTitledBorder(null, "Upute", 0, 0, new Font("Arial", 0, 18)));
+    reflex1.g.setFont(new Font("Arial", 0, 14));
+    reflex1.g.setText("Kada se promijeni boja kvadratiÄ‡a klikni te na gumb \"Klikni ovdje\"");
+    reflex1.k.setFont(new Font("Arial", 0, 14));
+    reflex1.k.setText("Nakon Å¡to kliknete \"ponovi\" ponovo kliknite na gumb \"Kreni\"");
+    reflex1.i.setFont(new Font("Arial", 0, 14));
+    reflex1.i.setText("Kliknite na \"Kreni\" kako bi ste zapoÄ�eli i pomaknite miÅ¡ na gumb \"Klikni ovdje\"");
+    GroupLayout groupLayout = new GroupLayout(reflex1.l);
+    reflex1.l.setLayout(groupLayout);
+    groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(reflex1.i).addComponent(reflex1.g).addComponent(reflex1.k)).addContainerGap(-1, 32767)));
+    groupLayout.setVerticalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addComponent(reflex1.i).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(reflex1.g).addGap(18, 18, 18).addComponent(reflex1.k).addContainerGap()));
+    reflex1.m.setBorder(BorderFactory.createTitledBorder(null, "Vrijeme", 0, 0, new Font("Arial", 0, 18)));
+    reflex1.h.setFont(new Font("Tahoma", 0, 12));
+    reflex1.h.setText("[ms]");
+    f.setEditable(false);
+    f.setColumns(20);
+    f.setFont(new Font("Arial", 0, 14));
+    f.setRows(5);
+    reflex1.o.setViewportView(f);
+    reflex1.s.setFont(new Font("Arial", 0, 14));
+    reflex1.s.setText("Vrijeme:");
+    reflex1.j.setFont(new Font("Arial", 0, 14));
+    reflex1.j.setText("Povijest rezultata:");
+    p.setFont(new Font("Arial", 0, 14));
+    groupLayout = new GroupLayout(reflex1.m);
+    reflex1.m.setLayout(groupLayout);
+    groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(reflex1.j).addComponent(reflex1.o, -2, -1, -2).addGroup(groupLayout.createSequentialGroup().addComponent(reflex1.s).addGap(2, 2, 2).addComponent(p, -2, 48, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(reflex1.h))).addContainerGap()));
+    groupLayout.setVerticalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(reflex1.s, GroupLayout.Alignment.LEADING).addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(p, -2, 17, -2).addComponent(reflex1.h))).addGap(18, 18, 18).addComponent(reflex1.j).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(reflex1.o, -2, 156, -2).addContainerGap()));
+    reflex1.n.setBorder(BorderFactory.createTitledBorder(null, "Test", 0, 0, new Font("Arial", 0, 18)));
+    r.setText("Ponovi");
+    r.addActionListener(new c(reflex1));
+    d.setBackground(new Color(0, 0, 255));
+    d.addPropertyChangeListener(new d(reflex1));
+    groupLayout = new GroupLayout(d);
+    d.setLayout(groupLayout);
+    groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGap(0, 100, 32767));
+    groupLayout.setVerticalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGap(0, 100, 32767));
+    c.setText("Kreni");
+    c.addActionListener(new e(reflex1));
+    q.setText("Klikni ovdje");
+    q.setToolTipText("");
+    q.setActionCommand("beg");
+    q.addActionListener(new f(reflex1));
+    groupLayout = new GroupLayout(reflex1.n);
+    reflex1.n.setLayout(groupLayout);
+    groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, groupLayout.createSequentialGroup().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(c).addComponent(r)).addGap(18, 18, 18).addComponent(d, -2, -1, -2)).addComponent(q, GroupLayout.Alignment.TRAILING, -2, 140, -2)).addContainerGap()));
+    groupLayout.setVerticalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addComponent(d, -2, -1, -2).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(q, -2, 56, -2)).addGroup(groupLayout.createSequentialGroup().addComponent(c).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(r))).addContainerGap()));
+    groupLayout = new GroupLayout(reflex1.getContentPane());
+    reflex1.getContentPane().setLayout(groupLayout);
+    groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addContainerGap().addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addComponent(reflex1.m, -2, -1, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(reflex1.n, -2, -1, -2)).addComponent(reflex1.l, -1, -1, 32767)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(reflex1.e, -2, 10, -2).addGap(22, 22, 22)));
+    groupLayout.setVerticalGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(groupLayout.createSequentialGroup().addGap(46, 46, 46).addComponent(reflex1.e, -2, 155, -2).addContainerGap(-1, 32767)).addGroup(groupLayout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(reflex1.l, -2, -1, -2).addGap(18, 18, 18).addGroup(groupLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(reflex1.m, -2, -1, -2).addComponent(reflex1.n, -2, -1, -2)).addGap(18, 18, 18)));
+    reflex1.pack();
+    q.setEnabled(false);
+    r.setEnabled(false);
+  }
+  
+  public static void main(String[] paramArrayOfString) {
+    try {
+      UIManager.LookAndFeelInfo[] arrayOfLookAndFeelInfo;
+      int i1 = (arrayOfLookAndFeelInfo = UIManager.getInstalledLookAndFeels()).length;
+      for (byte b1 = 0; b1 < i1; b1++) {
+        UIManager.LookAndFeelInfo lookAndFeelInfo = arrayOfLookAndFeelInfo[b1];
+        if ("Nimbus".equals(lookAndFeelInfo.getName())) {
+          UIManager.setLookAndFeel(lookAndFeelInfo.getClassName());
+          break;
+        } 
+      } 
+    } catch (ClassNotFoundException classNotFoundException) {
+      Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, classNotFoundException);
+    } catch (InstantiationException instantiationException) {
+      Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, instantiationException);
+    } catch (IllegalAccessException illegalAccessException) {
+      Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, illegalAccessException);
+    } catch (UnsupportedLookAndFeelException unsupportedLookAndFeelException) {
+      Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, unsupportedLookAndFeelException);
+    } 
+    EventQueue.invokeLater(new g());
+  }
+
+public static void a(Object a, PropertyChangeEvent paramPropertyChangeEvent) {
+	// TODO Auto-generated method stub
+	
+}
+}
+
+
+/* Location:              C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\reflexTestObfuscated\reflexTestObfuscated.jar!\reflex.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.2
+ */

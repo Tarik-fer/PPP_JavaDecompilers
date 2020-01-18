@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jChess-1.5.jar.src:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ea321b7-0b3a-4059-a19c-644b9da8be93" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1V1le5cu2t6zuovPCj1HI4jOPlD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.1328125" />
+    <property name="project.structure.side.proportion" value="0.21343446" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ea321b7-0b3a-4059-a19c-644b9da8be93" name="Default Changelist" comment="" />
+      <created>1576428575567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576428575567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="179" width="1092" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576428707668">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="734" y="179" width="1092" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1576428707668" />
+    <state x="1010" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576428762915">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1010" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1576428762915" />
+    <state x="1060" y="279" key="FileChooserDialogImpl" timestamp="1576428853351">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1060" y="279" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1576428853351" />
+    <state x="760" y="99" key="SettingsEditor" timestamp="1576428855982">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="760" y="99" key="SettingsEditor/0.0.2560.1050@0.0.2560.1050" timestamp="1576428855982" />
+  </component>
+</project>

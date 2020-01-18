@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+ <TITLE>reflexTest_cfr_local</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script type="text/javascript">
+  <!--
+   function ZweiFrames(URL1,F1,URL2,F2)
+   {
+    parent.frames[F1].location.href=URL1;
+    parent.frames[F2].location.href=URL2;
+   }
+  //-->
+  </script>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<HR>
+<H3><CENTER>mainReflex.java</CENTER></H3><HR>
+<PRE>
+/*
+ * Decompiled with CFR 0.148.
+ */
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+<A NAME="0"></A>import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+<FONT color="#0000ff"><A HREF="javascript:ZweiFrames('match0-1.html#0',3,'match0-top.html#0',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.LayoutStyle;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+
+public class</B></FONT> mainReflex
+extends JFrame {
+    private JButton jButton1;
+    private JButton jButton2;
+    private JLabel jLabel1;
+    private JLabel jLabel2;
+
+    public mainReflex() {
+<A NAME="1"></A>        this.initComponents();
+    }
+
+    private <FONT color="#f63526"><A HREF="javascript:ZweiFrames('match0-1.html#1',3,'match0-top.html#1',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void initComponents() {
+        this.jLabel1 = new JLabel();
+        this.jButton1 = new JButton();
+        this.jButton2 = new JButton();
+        this.jLabel2 = new JLabel();
+        this.setDefaultCloseOperation(3);
+        this.jLabel1.setFont(new Font(&quot;Arial&quot;, 0, 18));
+        this.jLabel1.setText(&quot;Reflexen&quot;);
+        this.jButton1.setText(&quot;Reflex&quot;);
+<A NAME="2"></A>        this.jButton1.addActionListener(new ActionListener(){</B></FONT>
+
+            @Override
+            public <FONT color="#77bfc7"><A HREF="javascript:ZweiFrames('match0-1.html#2',3,'match0-top.html#2',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void actionPerformed(ActionEvent evt) {
+                mainReflex.this.jButton1ActionPerformed(evt);
+            }
+        });
+        this.jButton2.setText(&quot;Reflex + aim&quot;);
+        this.jLabel2.setText(&quot;Tatrik Karamehmedovi\u0107&quot;);
+        this.jLabel2.setToolTipText(&quot;&quot;);
+        GroupLayout layout = new GroupLayout(this.getContentPane());
+        this.getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(this.jLabel2).addContainerGap()).addGroup(layout.createSequentialGroup().addGap(48, 48, 48).addComponent(this.jButton1).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 101, 32767).addComponent(this.jButton2).addGap(52, 52, 52)).addGroup(layout.createSequentialGroup().addGap(127, 127, 127).addComponent(this.jLabel1, -2, 81, -2).addContainerGap(-1, 32767)));
+        layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(24, 24, 24).addComponent(this.jLabel1).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 62, 32767).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jButton1).addComponent(this.jButton2)).addGap(62, 62, 62).addComponent(this.jLabel2).addContainerGap()));
+        this.pack();
+    }
+
+    private void jButton1ActionPerformed(ActionEvent evt) {
+    }
+
+    public static void main(String[] args) {
+        try {
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+<A NAME="3"></A>                if (!&quot;Nimbus&quot;.equals(info.getName</B></FONT>())) continue;
+                UIManager.setLookAndFeel(info.getClassName());
+                break;
+            <FONT color="#6cc417"><A HREF="javascript:ZweiFrames('match0-1.html#3',3,'match0-top.html#3',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>}
+        }
+        catch (ClassNotFoundException ex) {
+            Logger.getLogger(mainReflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (InstantiationException ex) {
+            Logger.getLogger(mainReflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (IllegalAccessException ex) {
+            Logger.getLogger(mainReflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(mainReflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        EventQueue.invokeLater(new Runnable(){</B></FONT>
+
+            @Override
+            public void run() {
+                new mainReflex().setVisible(true);
+            }
+        });
+    }
+
+}
+
+</PRE>
+<HR>
+<H3><CENTER>reflex.java</CENTER></H3><HR>
+<PRE>
+/*
+ * Decompiled with CFR 0.148.
+ */
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.LayoutStyle;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.border.Border;
+<A NAME="4"></A>
+public class reflex
+extends JFrame {
+    public long <FONT color="#151b8d"><A HREF="javascript:ZweiFrames('match0-1.html#4',3,'match0-top.html#4',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>startTime;
+    public long endTime;
+    public static JButton begin;
+    public static JPanel colorBox;
+    private Box.Filler filler2;
+    public static JTextArea history;
+    private JLabel jLabel1;
+    private JLabel jLabel2;
+    private JLabel jLabel3;
+    private JLabel jLabel4;
+    private JLabel jLabel5;
+    private JPanel jPanel1;
+    private JPanel jPanel2;
+    private JPanel jPanel3;
+<A NAME="5"></A>    private JScrollPane jScrollPane1;
+    public static JLabel react;
+    public static JButton reactBut</B></FONT>;
+    public static JButton <FONT color="#c8c2a7"><A HREF="javascript:ZweiFrames('match0-1.html#5',3,'match0-top.html#5',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>reset;
+    private JLabel time;
+
+    public long getDuration() {
+        return this.endTime - this.startTime;
+    }
+
+    public long start() {
+        this.startTime = System.currentTimeMillis();
+        return this.startTime;
+    }
+
+    public long stop() {
+        this.endTime = System.currentTimeMillis();
+        return this.endTime;
+    }
+
+    public reflex() throws InterruptedException {
+        this.initComponents();
+        reactBut.setEnabled(false);
+<A NAME="6"></A>        reset.setEnabled(false);
+    }</B></FONT>
+
+    private <FONT color="#50ebec"><A HREF="javascript:ZweiFrames('match0-1.html#6',3,'match0-top.html#6',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void initComponents() {
+        this.filler2 = new Box.Filler(new Dimension(0, 0), new Dimension(0, 0), new Dimension(0, 32767));
+        this.jPanel1 = new JPanel();
+        this.jLabel1 = new JLabel();
+        this.jLabel5 = new JLabel();
+        this.jLabel3 = new JLabel();
+        this.jPanel2 = new JPanel();
+        this.jLabel2 = new JLabel();
+        this.jScrollPane1 = new JScrollPane();
+        history = new JTextArea();
+        this.time = new JLabel();
+        this.jLabel4 = new JLabel();
+        react = new JLabel();
+        this.jPanel3 = new JPanel();
+        reset = new JButton();
+        colorBox = new JPanel();
+        begin = new JButton();
+        reactBut = new JButton();
+        this.setDefaultCloseOperation(3);
+        this.jPanel1.setBorder(BorderFactory.createTitledBorder(null, &quot;Upute&quot;, 0, 0, new Font(&quot;Arial&quot;, 0, 18)));
+        this.jLabel1.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        this.jLabel1.setText(&quot;Kada se promijeni boja kvadrati\u0107a klikni te na gumb \&quot;Klikni ovdje\&quot;&quot;);
+        this.jLabel5.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        this.jLabel5.setText(&quot;Nakon \u0161to kliknete \&quot;ponovi\&quot; ponovo kliknite na gumb \&quot;Kreni\&quot;&quot;);
+        this.jLabel3.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        this.jLabel3.setText(&quot;Kliknite na \&quot;Kreni\&quot; kako bi ste zapo\u010deli i pomaknite mi\u0161 na gumb \&quot;Klikni ovdje\&quot;&quot;);
+        GroupLayout jPanel1Layout = new GroupLayout(this.jPanel1);
+        this.jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(this.jLabel3).addComponent(this.jLabel1).addComponent(this.jLabel5)).addContainerGap(-1, 32767)));
+        jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(this.jLabel3).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(this.jLabel1).addGap(18, 18, 18).addComponent(this.jLabel5).addContainerGap()));
+        this.jPanel2.setBorder(BorderFactory.createTitledBorder(null, &quot;Vrijeme&quot;, 0, 0, new Font(&quot;Arial&quot;, 0, 18)));
+        this.jLabel2.setFont(new Font(&quot;Tahoma&quot;, 0, 12));
+        this.jLabel2.setText(&quot;[ms]&quot;);
+        history.setEditable(false);
+        history.setColumns(20);
+        history.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        history.setRows(5);
+        this.jScrollPane1.setViewportView(history);
+        this.time.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        this.time.setText(&quot;Vrijeme:&quot;);
+        this.jLabel4.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        this.jLabel4.setText(&quot;Povijest rezultata:&quot;);
+        react.setFont(new Font(&quot;Arial&quot;, 0, 14));
+        GroupLayout jPanel2Layout = new GroupLayout(this.jPanel2);
+        this.jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addContainerGap().addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(this.jLabel4).addComponent(this.jScrollPane1, -2, -1, -2).addGroup(jPanel2Layout.createSequentialGroup().addComponent(this.time).addGap(2, 2, 2).addComponent(react, -2, 48, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel2))).addContainerGap()));
+        jPanel2Layout.setVerticalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addContainerGap().addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.time, GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(react, -2, 17, -2).addComponent(this.jLabel2))).addGap(18, 18, 18).addComponent(this.jLabel4).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(this.jScrollPane1, -2, 156, -2).addContainerGap()));
+        this.jPanel3.setBorder(BorderFactory.createTitledBorder(null, &quot;Test&quot;, 0, 0, new Font(&quot;Arial&quot;, 0, 18)));
+        reset.setText(&quot;Ponovi&quot;);
+<A NAME="7"></A>        reset.addActionListener(new ActionListener(){</B></FONT>
+
+            @Override
+            public <FONT color="#c58917"><A HREF="javascript:ZweiFrames('match0-1.html#7',3,'match0-top.html#7',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void actionPerformed(ActionEvent evt) {
+                reflex.this.resetActionPerformed(evt);
+            }
+        });
+        colorBox.setBackground(new Color(0, 0, 255));
+<A NAME="8"></A>        colorBox.addPropertyChangeListener(new PropertyChangeListener(){</B></FONT>
+
+            @Override
+            public <FONT color="#bce954"><A HREF="javascript:ZweiFrames('match0-1.html#8',3,'match0-top.html#8',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void propertyChange(PropertyChangeEvent evt) {
+                reflex.this.colorBoxPropertyChange(evt);
+            }
+        });
+        GroupLayout colorBoxLayout = new GroupLayout(colorBox);
+        colorBox.setLayout(colorBoxLayout);
+        colorBoxLayout.setHorizontalGroup(colorBoxLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGap(0, 100, 32767));
+        colorBoxLayout.setVerticalGroup(colorBoxLayout.createParallelGroup(GroupLayout.Alignment.LEADING).addGap(0, 100, 32767));
+        begin.setText(&quot;Kreni&quot;);
+<A NAME="9"></A>        begin.addActionListener(new ActionListener(){</B></FONT>
+
+            @Override
+            public <FONT color="#f88017"><A HREF="javascript:ZweiFrames('match0-1.html#9',3,'match0-top.html#9',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void actionPerformed(ActionEvent evt) {
+                reflex.this.beginActionPerformed(evt);
+            }
+        });
+        reactBut.setText(&quot;Klikni ovdje&quot;);
+        reactBut.setToolTipText(&quot;&quot;);
+        reactBut.setActionCommand(&quot;beg&quot;);
+<A NAME="10"></A>        reactBut.addActionListener(new ActionListener(){</B></FONT>
+
+            @Override
+            public <FONT color="#b041ff"><A HREF="javascript:ZweiFrames('match0-1.html#10',3,'match0-top.html#10',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void actionPerformed(ActionEvent evt) {
+                reflex.this.reactButActionPerformed(evt);
+            }
+        });
+        GroupLayout jPanel3Layout = new GroupLayout(this.jPanel3);
+        this.jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel3Layout.createSequentialGroup().addContainerGap().addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup().addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(begin).addComponent(reset)).addGap(18, 18, 18).addComponent(colorBox, -2, -1, -2)).addComponent(reactBut, GroupLayout.Alignment.TRAILING, -2, 140, -2)).addContainerGap()));
+        jPanel3Layout.setVerticalGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel3Layout.createSequentialGroup().addContainerGap().addGroup(jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel3Layout.createSequentialGroup().addComponent(colorBox, -2, -1, -2).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(reactBut, -2, 56, -2)).addGroup(jPanel3Layout.createSequentialGroup().addComponent(begin).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(reset))).addContainerGap()));
+        GroupLayout layout = new GroupLayout(this.getContentPane());
+        this.getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addComponent(this.jPanel2, -2, -1, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(this.jPanel3, -2, -1, -2)).addComponent(this.jPanel1, -1, -1, 32767)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.filler2, -2, 10, -2).addGap(22, 22, 22)));
+        layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(46, 46, 46).addComponent(this.filler2, -2, 155, -2).addContainerGap(-1, 32767)).addGroup(layout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(this.jPanel1, -2, -1, -2).addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(this.jPanel2, -2, -1, -2).addComponent(this.jPanel3, -2, -1, -2)).addGap(18, 18, 18)));
+        this.pack();
+    }
+
+    private void colorBoxPropertyChange(PropertyChangeEvent evt) {
+    }
+
+    private void reactButActionPerformed(ActionEvent evt) {
+        this.stop();
+        if (this.getDuration() &gt; 1L) {
+            react.setText(String.valueOf(this.getDuration()));
+            history.append(String.valueOf(this.getDuration()) + &quot;\n&quot;);
+            reset.setEnabled(true);
+            begin.setEnabled(false);
+            reactBut.setEnabled(false);
+        }
+    }
+
+    private void beginActionPerformed(ActionEvent evt) {
+        Random rand = new Random();
+        try {
+            TimeUnit.SECONDS.sleep(rand.nextInt(7) + 1);
+        }
+        catch (InterruptedException ex) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        colorBox.setBackground(Color.RED);
+        reactBut.setEnabled(true);
+        this.start();
+    }
+
+    private void resetActionPerformed(ActionEvent evt) {
+        colorBox.setBackground(Color.BLUE);
+        react.setText(&quot;&quot;);
+        this.startTime = 0L;
+        this.endTime = 0L;
+        reactBut.setEnabled(false);
+        reset.setEnabled(false);
+        begin.setEnabled(true);
+    }
+
+    public static void main(String[] args) {
+        try {
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+<A NAME="11"></A>                if (!&quot;Nimbus&quot;.equals(info.getName</B></FONT>())) continue;
+                UIManager.setLookAndFeel(info.getClassName());
+                break;
+            <FONT color="#571b7e"><A HREF="javascript:ZweiFrames('match0-1.html#11',3,'match0-top.html#11',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>}
+        }
+        catch (ClassNotFoundException ex) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (InstantiationException ex) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (IllegalAccessException ex) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+        }
+<A NAME="12"></A>        EventQueue.invokeLater(new Runnable(){</B></FONT>
+
+            @Override
+            public <FONT color="#3b9c9c"><A HREF="javascript:ZweiFrames('match0-1.html#12',3,'match0-top.html#12',1)"><IMG SRC="forward.gif" ALT="other" BORDER="0" ALIGN="right"></A><B>void run() {
+                try {
+                    new reflex().setVisible(true);
+                }
+                catch (InterruptedException ex) {
+                    Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+    }</B></FONT>
+
+    private void setText(String ajme) {
+        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;);
+    }
+
+}
+
+</PRE>
+
+</BODY>
+</HTML>

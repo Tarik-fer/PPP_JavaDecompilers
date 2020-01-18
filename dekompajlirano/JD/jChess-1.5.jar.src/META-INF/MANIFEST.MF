@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: jChess
+Implementation-Version: 1.5
+Archiver-Version: Plexus Archiver
+Built-By: Mateusz
+Specification-Title: jChess
+Implementation-Vendor-Id: pl.art.lach.mateusz
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_51
+Specification-Version: 1.5
+Main-Class: pl.art.lach.mateusz.javaopenchess.JChessApp
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\reflexTest - Copy"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\kovacZadaca"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\fernflower\reflexTest_obfuscated"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\procyon\reflexTestProject_OBFUSCATED"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\JD\reflexTestObfuscated.jar.src"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\pacman"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\PacManTopDownShooter"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\procyon\chess"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\JD\jChess-1.5.jar.src"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\cfr_tests"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\fernflower"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Dekompajleri\fernflower"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\procyon"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\JD\reflexTest.jar.src"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\CFR\reflexTest_cfr_local"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\dekompajlirano\CFR\reflexTest_source_from_cfr"/>
+			<item value="C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\reflexTest"/>
+		</list>
+	</section>
+</section>

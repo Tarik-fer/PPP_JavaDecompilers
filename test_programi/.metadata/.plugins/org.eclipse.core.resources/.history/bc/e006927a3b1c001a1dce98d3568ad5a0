@@ -1,0 +1,33 @@
+public class Starter {
+
+	public static void main(String[] args) {
+		System.out.println("test");
+		
+		String str1 = new String();
+		
+		Integer int1 = new Integer(5);
+		
+		boolean bo = true;
+		
+		str1 = str1 + int1;
+		System.out.println(str1 + int1);
+		
+		function();
+		
+		recursiveFunction();
+		
+		while(bo) {
+		}
+		
+	}
+	
+	public static void function(){
+		String strF = new String("asdf");
+		
+		System.out.println(strF);
+		}
+	
+	public static void recursiveFunction() {
+		recursiveFunction();
+	}
+}

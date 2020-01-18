@@ -1,0 +1,23 @@
+/*
+ * Decompiled with CFR 0.148.
+ */
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+final class g
+implements Runnable {
+    g() {
+    }
+
+    @Override
+    public final void run() {
+        try {
+            new reflex().setVisible(true);
+            return;
+        }
+        catch (InterruptedException interruptedException) {
+            Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, interruptedException);
+            return;
+        }
+    }
+}

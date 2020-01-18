@@ -1,0 +1,20 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+final class g implements Runnable {
+  public final void run() {
+    try {
+      (new reflex()).setVisible(true);
+      return;
+    } catch (InterruptedException interruptedException) {
+      Logger.getLogger(reflex.class.getName()).log(Level.SEVERE, null, interruptedException);
+      return;
+    } 
+  }
+}
+
+
+/* Location:              C:\Users\Tarik\OneDrive - fer.hr\FAKS\5. semestar\PPP\Testiranje\Test programi\reflexTestObfuscated\reflexTestObfuscated.jar!\g.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.2
+ */
