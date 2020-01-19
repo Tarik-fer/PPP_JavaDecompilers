@@ -8,7 +8,7 @@ import datetime
 decompilers = {
 	"cfr": "dekompajleri\\cfr-0.148.jar",
 	"JD": "dekompajleri\\jd-gui-1.6.5.jar",
-	"procyon": "dekompajleri\\procyon-decompiler-o.5.36.jar",
+	"procyon": "dekompajleri\\procyon-decompiler-0.5.36.jar",
 	"fernflower": "dekompajleri\\fernflower.jar"
 	}
 
@@ -18,74 +18,64 @@ decompilers = {
 decompileResultPath = {
 	"cfr": "dekompajlirano\\CFR\\",
 	"JD": "dekompajlirano\\JD\\",
-	"procyon": "dekompajlirano\\prcyon\\",
+	"procyon": "dekompajlirano\\procyon\\",
 	"fernflower": "dekompajlirano\\fernflower\\"
 	}
+
 
 def getJarName(pathToJar):
 	return pathToJar[programPath.rfind('\\')+1:]
 
 def extractFile(sourcePath, destPath):
-	# os.system("jar xf %s %s" % path)
-	# print("SOURCE PATH: %s" % sourcePath)
-	print("DEST PATH: %s" % destPath)
 	print("extracting...")
 	with zipfile.ZipFile(sourcePath, 'r') as zf:
 		zf.extractall(destPath)
 	print("DONE")
-	# currentFile = zipfile.ZipFile(path)
-	# jarName = getJarName(path)
-	# print("JAR NAME: %s" % jarName)
-	# os.system("dir .\\dekompajlirano\\fernflower\\reflex_test_skripta\\ ")
-	# currentFile.extractall(path.replace('\\', '/'))
-	# currentFile.close()
 	return
 
 
-#uzimanje parametara iz command line-a
+# uzimanje parametara iz command line-a
 
-#as if you dont know what this is
-decompiler = sys.argv[1]
-#stvarcica sa jarom
-programPath = sys.argv[2]
-#naziv folder u koji ide output, nije cijeli path
-outputFolder = sys.argv[3]
+# as if you dont know what this is
+decompiler = raw_input("Unesite dekompajler (cfr, procyon, fernflower): ")#sys.argv[1]
+while decompiler not in ["cfr", "procyon", "fernflower"]:
+	decompiler = raw_input("Unesite dekompajler (cfr, procyon, fernflower): ")#sys.argv[1]
+# stvarcica sa jarom
+programPath = raw_input("Unesite relativni path do jar datoteke (datoteka se mora nalaziti unutar test_programi, path je tipa ./test_programi/...): ")#sys.argv[2]
+# naziv folder u koji ide output, nije cijeli path
+outputFolder = raw_input("Unesite naziv foldera (ne cijeli path) u kojem ce se nalaziti rjesenje: ")#sys.argv[3]
 
-
+# path do decompilera
 decompilerPath = decompilers[decompiler]
 
+# path u kojem ce se nalaziti rezultat dekompilacije
 outputPath = decompileResultPath[decompiler] + outputFolder
-# print("outputPath")
 
 if decompiler == "cfr":
-				#path do dekompajlera, path do programam, output directory
-	command = "java -jar %s '%s' --outputdir '%s'" % (decompilerPath, programPath, outputPath)
-	# print(command)
-	# subprocess.call(command, shell=true)
+		# path do dekompajlera, path do programam, output directory
+	command = "java -jar %s \"%s\" --outputdir \"%s\"" % (decompilerPath, programPath, outputPath)
 	os.system(command)
-	#old command = "java -jar "+ decompilers["cfr"] +" '"+ programPath +"' - '"+ decompileResultPath["cfr"] "'"
 
 if decompiler == "JD":
 	pass
 
 if decompiler == "procyon":
-	command = "java -jar %s '%s' -o '%s'" % (decompilerPath, programPath, outputPath)
+	print("DECOMPILER PATH: "+decompilerPath)
+	print("PROGRAM PATH: "+programPath)
+	print("OUTPUT PATH: "+outputPath)
+	command = "java -jar %s \"%s\" -o \"%s\"" % (decompilerPath, programPath, outputPath)
+	print("COMMAND: "+command)
 	# subprocess.call(command, shell=true)
 	os.system(command)
 
 
-
+# fernflower ima problem da pri dekompajliranju .jar datoteke on svoj rezultat sprema u isto imenu .jar datoteku,
+# pa ju moramo extractati iz arhive kako bi mogli vidjeti .java datoteke
 if decompiler == "fernflower":
 	command = "java -jar %s %s %s" % (decompilerPath, programPath, outputPath)
-	# print("Decompiler: '%s'" % decompilers["fernflower"])
-	# print("Program path: '%s'" % programPath)
-	# print("Output path: '%s'" % outputPath)
 	if not os.path.exists(outputPath):
 		os.makedirs(outputPath)
-	# subprocess.call(command, shell=true)
 	os.system(command)
 	if ".jar" in programPath:
-		# print("JAR NAME: %s" % getJarName(programPath))
 		extractPath = outputPath +"\\"+ getJarName(programPath)
-		# print("EXTRACT PATH: %s " % extractPath)
 		extractFile(extractPath, outputPath)
