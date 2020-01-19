@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e54c1e1b-93b0-4069-a941-81bca89e1391" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../dekompajlerSkripta.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../dekompajlerSkripta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dekompajleri/cfr" beforeDir="false" afterPath="$PROJECT_DIR$/../../dekompajleri/cfr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M_snake.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmmtds.scores" beforeDir="false" afterPath="$PROJECT_DIR$/pmmtds.scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cfr_tests" beforeDir="false" afterPath="$PROJECT_DIR$/../cfr_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pacman.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1WZvFbT1QJpsKiUpuX6PVifsx0A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e54c1e1b-93b0-4069-a941-81bca89e1391" name="Default Changelist" comment="" />
+      <created>1579369829438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579369829438</updated>
+    </task>
+    <servers />
+  </component>
+</project>
