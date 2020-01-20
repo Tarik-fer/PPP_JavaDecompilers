@@ -37,7 +37,8 @@ def extractFile(sourcePath, destPath):
 
 ################################################################## winnowing
 def h11(word):
-    return int(hashlib.md5(word.encode('utf-8')).hexdigest()[:9], 16)
+    return int(hashlib.md5(word).hexdigest()[:9], 16)
+	#word.encode('utf-8')
 
 def createFingerprints(text, k):
     fingerprintArr = [];
@@ -128,9 +129,15 @@ if action == "1":
 			extractFile(extractPath, outputPath)
 else:
 	print("\nUsporedba dekompajliranih datoteka:")
-	originalJavaFile = open(raw_input("Unesite path do originalne .java datoteke: "), "r").read()
-					  #open(input("Input decompiled program path: 				  "), "r").readlines()
-	decompiledJavaFile = open(raw_input("Unesite path do dekompajlirane .java datoteke: "), "r").read()
+	originalFilePath = raw_input("Unesite path do originalne .java datoteke: ")
+	originalJavaFile = open(originalFilePath, "r").read()
+	originalFileStats = os.stat(originalFilePath)
+	decompiledFilePath = raw_input("Unesite path do dekompajlirane .java datoteke: ")
+	decompiledJavaFile = open(decompiledFilePath, "r").read()
+	decompiledFileStats = os.stat(decompiledFilePath)
+
+	print("First file size: %s bytes" % originalFileStats.st_size)
+	print("Second file size: %s bytes" % decompiledFileStats.st_size)
 
 	originalFingerprint = createFingerprints(originalJavaFile, 10)
 	decompiledFingerprint = createFingerprints(decompiledJavaFile, 10)
@@ -151,6 +158,7 @@ else:
 	print(str(intersectionCounter) +  " zajednickih otisaka.")
 	result = (float(intersectionCounter) / (float(len(winnowingOriginal)) + float(len(winnowingDecompiled)))) * 100
 	print("Slicnost: %.3f%%" % result)
+
 
 
 
