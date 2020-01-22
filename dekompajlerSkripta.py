@@ -76,6 +76,7 @@ def countConditionStatements(filePath):
 			line = re.sub(re.compile(".*/\*.*",re.DOTALL ) ,"" ,line)
 			line = re.sub(re.compile(".*\\*.*",re.DOTALL ) ,"" ,line)
 			line = re.sub(re.compile("[ ]*\*.*",re.DOTALL ) ,"" ,line)
+			line = re.sub(re.compile("//.*?\n" ) ,"" ,line)
 			# print("AFTER REGEX: "+line)
 			##############################################
 			if "continue" in line or "break" in line:
