@@ -41,6 +41,8 @@ def countVariableInCondition(line):
 	line = line.replace("{", " ")
 	line = line.replace("if", "")
 	line = line.replace("else if", "")
+	line = line.replace("switch", "")
+	line = line.replace("case", "")
 	line = line.replace("<", " ")
 	line = line.replace(">", " ")
 	line = line.replace(">=", " ")
@@ -70,8 +72,8 @@ def countConditionStatements(filePath):
 	with open(filePath) as file:
 		for line in file:
 			if "continue" in line or "break" in line:
-				statementCounter += 1
-			if ("if" in line or "else if" in line) and ";" not in line:
+				statementCounter += 2
+			if ("if" in line or "else if" in line or "switch" in line or "case" in line) and ";" not in line:
 				statementCounter += float(getFlowStatementComplexity(line))
 			if "for" in line and ";" not in line:
 				statementCounter += 1
