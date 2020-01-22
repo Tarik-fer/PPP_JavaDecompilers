@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/algoritmi_programi_usporedbe/RKR-GST" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/algoritmi_programi_usporedbe/jplag" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dekompajleri/Krakatau" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dekompajleri/cfr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dekompajleri/fernflower" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_programi/cfr_tests" vcs="Git" />
+  </component>
+</project>
