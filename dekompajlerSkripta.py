@@ -71,6 +71,13 @@ def countConditionStatements(filePath):
 	statementCounter = 0
 	with open(filePath) as file:
 		for line in file:
+			############################## Micanje komentara
+			# print("BEFORE REGEX: "+line)
+			line = re.sub(re.compile(".*/\*.*",re.DOTALL ) ,"" ,line)
+			line = re.sub(re.compile(".*\\*.*",re.DOTALL ) ,"" ,line)
+			line = re.sub(re.compile("[ ]*\*.*",re.DOTALL ) ,"" ,line)
+			# print("AFTER REGEX: "+line)
+			##############################################
 			if "continue" in line or "break" in line:
 				statementCounter += 2
 			if ("if" in line or "else if" in line or "switch" in line or "case" in line) and ";" not in line:
