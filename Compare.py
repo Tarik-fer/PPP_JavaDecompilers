@@ -126,7 +126,7 @@ def compare():
 		if fingerprint in winnowingSecond:
 			intersectionCounter += 1
 
-	print("Wennowing slicnost:")
+	print("Winnowing slicnost:")
 	print("\t" + str(len(winnowingOriginal) + len(winnowingSecond)) + " otisaka ukupno.")
 	print("\t" + str(intersectionCounter) + " zajednickih otisaka.")
 	result = (float(intersectionCounter) / (float(len(winnowingOriginal)) + float(len(winnowingSecond)))) * 100
