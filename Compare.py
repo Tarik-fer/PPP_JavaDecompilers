@@ -3,26 +3,10 @@ import re
 
 import pygments
 from pygments import lexers
+from Tokenization import tokenize
 
 from Winnowing import createFingerprints, winnowingAlgorithm
 
-
-def tokenize(source_text):
-	# file_path = input("File path: ")
-	# file_path = file_path.replace("\\", "/")
-	# file_path = file_path.replace(" ", " ")
-	# print(file_path)
-	# file_open = open(file_path, "r", encoding="utf8")
-	# file_content = file_open.read()
-	java_lexer = lexers.get_lexer_by_name("java")
-	file_tokens = pygments.lex(source_text, java_lexer) # vraca tokene u obliku tuple-a, (ime tokena, string tokena u kodu)
-	token_string = ""
-
-	for token, literal in file_tokens:
-		token_string += str(token).split('.')[1]
-		# print(token)
-
-	return token_string
 
 def countVariableInCondition(line):
 	# micanje svih posebnih znakova i stringova koji bi se mogli naci unutar linije uvjeta
@@ -83,11 +67,11 @@ def countConditionStatements(filePath):
 def compare():
 	print("\nUsporedba dekompajliranih datoteka:")
 	originalFilePath = input("Unesite path do originalne .java datoteke: ")
-	originalJavaFile = open(originalFilePath, "r", encoding='utf8').read()
+	original_file_content = open(originalFilePath, "r", encoding='utf8').read()
 	originalFileStats = os.stat(originalFilePath)
 
 	secondFilePath = input("Unesite path do dekompajlirane .java datoteke: ")
-	secondJavaFile = open(secondFilePath, "r", encoding='utf8').read()
+	second_file_content = open(secondFilePath, "r", encoding='utf8').read()
 	secondFileStats = os.stat(secondFilePath)
 
 	print(
@@ -108,14 +92,20 @@ def compare():
 	print("\tOcjena prve detoteke: 1")
 	print("\tOcjena druge datoteke: %.5f" % controlFlowStatementGrade)
 
-	# originalJavaFile = tokenize(originalJavaFile)
-	# secondJavaFile = tokenize(secondJavaFile)
+	# print("Before process: " + original_file_content)
+	# original_file_content = process_input(original_file_content)            # PROCESSING
+	# second_file_content = process_input(second_file_content)
+	# # print("-----------------------------------------------------------------------------------------")
+	# print("After process: " + original_file_content)
 
-	originalFingerprint = createFingerprints(originalJavaFile, 10)
-	secondFingerprint = createFingerprints(secondJavaFile, 10)
+	original_file_content = tokenize(original_file_content)       # TOKENIZATION
+	second_file_content = tokenize(second_file_content)
 
-	winnowingOriginal = winnowingAlgorithm(originalFingerprint, 40)
-	winnowingSecond = winnowingAlgorithm(secondFingerprint, 40)
+	originalFingerprint = createFingerprints(original_file_content, 70)      # FINGERPRINTS
+	secondFingerprint = createFingerprints(second_file_content, 70)
+
+	winnowingOriginal = winnowingAlgorithm(originalFingerprint, 10)     # WINNOWING ALGORITHM
+	winnowingSecond = winnowingAlgorithm(secondFingerprint, 10)
 
 	intersectionCounter = 0
 	for fingerprint in winnowingSecond:
