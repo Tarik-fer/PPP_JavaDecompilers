@@ -3,6 +3,8 @@ import re
 
 import pygments
 from pygments import lexers
+
+from MetricProfiler import MetricProfiler
 from Tokenization import tokenize
 
 from Winnowing import createFingerprints, winnowingAlgorithm
@@ -66,9 +68,10 @@ def countConditionStatements(filePath):
 
 def compare():
 	print("\nUsporedba dekompajliranih datoteka:")
-	originalFilePath = input("Unesite path do originalne .java datoteke: ")
-	original_file_content = open(originalFilePath, "r", encoding='utf8').read()
-	originalFileStats = os.stat(originalFilePath)
+	firstFilePath = input("Unesite path do originalne .java datoteke: ")
+	first_file_content = open(firstFilePath, "r", encoding='utf8').read()
+	firstFileStats = os.stat(firstFilePath)
+	og_b4_token = first_file_content
 
 	secondFilePath = input("Unesite path do dekompajlirane .java datoteke: ")
 	second_file_content = open(secondFilePath, "r", encoding='utf8').read()
@@ -79,12 +82,12 @@ def compare():
 
 	print("Ocjena velicine datoteka:")
 	# ako druga datoteka ima vecu velicinu, imat ce manju ocjenu
-	sizeGrade = float(originalFileStats.st_size) / float(secondFileStats.st_size)
+	sizeGrade = float(firstFileStats.st_size) / float(secondFileStats.st_size)
 	print("\tOcjena prve datoteke: 1")
 	print("\tOcjena druge datoteke: %.5f" % sizeGrade)
 
 	print("Ocjena kompleksnosti uvjeta upravljanja tokom:")
-	originalFlowStatements = countConditionStatements(originalFilePath)
+	originalFlowStatements = countConditionStatements(firstFilePath)
 	secondFlowStatements = countConditionStatements(secondFilePath)
 
 	# ako druga datoteka ima vise kompliciraniji statement, imat ce veci broj bodava i time manju ocjenu
@@ -92,20 +95,23 @@ def compare():
 	print("\tOcjena prve detoteke: 1")
 	print("\tOcjena druge datoteke: %.5f" % controlFlowStatementGrade)
 
-	# print("Before process: " + original_file_content)
-	# original_file_content = process_input(original_file_content)            # PROCESSING
+	# print("Before process: " + first_file_content)
+	# first_file_content = process_input(first_file_content)            # PROCESSING
 	# second_file_content = process_input(second_file_content)
 	# # print("-----------------------------------------------------------------------------------------")
-	# print("After process: " + original_file_content)
+	# print("After process: " + first_file_content)
 
-	original_file_content = tokenize(original_file_content)       # TOKENIZATION
+	first_file_h_metric = MetricProfiler(first_file_content)
+	second_file_h_metric = MetricProfiler(second_file_content)
+
+	first_file_content = tokenize(first_file_content)  # TOKENIZATION
 	second_file_content = tokenize(second_file_content)
 
-	originalFingerprint = createFingerprints(original_file_content, 70)      # FINGERPRINTS
+	originalFingerprint = createFingerprints(first_file_content, 70)  # FINGERPRINTS
 	secondFingerprint = createFingerprints(second_file_content, 70)
 
-	winnowingOriginal = winnowingAlgorithm(originalFingerprint, 10)     # WINNOWING ALGORITHM
-	winnowingSecond = winnowingAlgorithm(secondFingerprint, 10)
+	winnowingOriginal = winnowingAlgorithm(originalFingerprint, 20)  # WINNOWING ALGORITHM
+	winnowingSecond = winnowingAlgorithm(secondFingerprint, 20)
 
 	intersectionCounter = 0
 	for fingerprint in winnowingSecond:
@@ -121,3 +127,19 @@ def compare():
 	print("\t" + str(intersectionCounter) + " zajednickih otisaka.")
 	result = (float(intersectionCounter) / (float(len(winnowingOriginal)) + float(len(winnowingSecond)))) * 100
 	print("\tslicnost: %.3f%%" % result)
+
+	print("First file halstead : (" +
+	      str(first_file_h_metric.line_num) + ", " +
+	      str(first_file_h_metric.word_num) + ", " +
+	      str(first_file_h_metric.char_num) + ", " +
+	      str(first_file_h_metric.h_length) + ", " +
+	      str(first_file_h_metric.h_volume) + ", " +
+	      str(first_file_h_metric.h_vocabulary) + ")")
+
+	print("Second file halstead : (" +
+	      str(second_file_h_metric.line_num) + ", " +
+	      str(second_file_h_metric.word_num) + ", " +
+	      str(second_file_h_metric.char_num) + ", " +
+	      str(second_file_h_metric.h_length) + ", " +
+	      str(second_file_h_metric.h_volume) + ", " +
+	      str(second_file_h_metric.h_vocabulary) + ")")
