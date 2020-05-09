@@ -397,4 +397,3 @@ extends BasicGame {
         localIP = null;
     }
 }
-
