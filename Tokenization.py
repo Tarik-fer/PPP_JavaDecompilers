@@ -21,5 +21,5 @@ def tokenize(source_text):
 		token_string += str(token)
 		# print(str(token) + ", " + literal)
 
-	print(token_string)
+	# print(token_string)
 	return token_string
