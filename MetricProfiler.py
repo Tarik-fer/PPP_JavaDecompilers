@@ -157,3 +157,15 @@ class MetricProfiler:
 
 		return (line_precentage_dif + word_precentage_dif + char_precentage_dif) / 3
 
+	def compareHalsteadProfileWith(self, other):
+		other: MetricProfiler
+
+		halstead_vocalbulary_similarity = self.h_vocabulary / other.h_vocabulary
+		if halstead_vocalbulary_similarity > 1:
+			halstead_vocalbulary_similarity = 1 / halstead_vocalbulary_similarity
+
+		halstead_length_similarity = self.h_length / other.h_length
+		if halstead_length_similarity > 1:
+			halstead_length_similarity = 1 / halstead_length_similarity
+
+		return (halstead_vocalbulary_similarity + halstead_length_similarity) / 2
