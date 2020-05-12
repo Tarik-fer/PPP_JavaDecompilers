@@ -101,6 +101,17 @@ def printHalsteadComparison(first_file_h_metric: MetricProfiler, second_file_h_m
 	# print("Halstead volumen druge datoteke: " + str(second_file_h_metric.h_volume))
 	# print("Halstead tezina prve datoteke: " + str(first_file_h_metric.h_difficulty))
 	# print("Halstead tezina druge datoteke: " + str(second_file_h_metric.h_difficulty))
+
+	if compare_method == ORIGINAL_vs_DECOMPILE:
+		if second_file_h_metric.error_cunt > 0:
+			print("!!! Dekompilirani program sadrzi " + str(second_file_h_metric.error_cunt) + " errora te je moguce da nedostaju pojedine implementacije metoda !!!")
+
+	if compare_method == DECOMPILED_FILES:
+		if first_file_h_metric.error_cunt > 0:
+			print("!!! Prva datoteka sadrzi " + str(first_file_h_metric.error_cunt) + " erroa te je moguce da nedostaju pojedine implementacije metoda !!!")
+		if first_file_h_metric.error_cunt > 0:
+			print("!!! Druga datoteka sadrzi " + str(second_file_h_metric.error_cunt) + " erroa te je moguce da nedostaju pojedine implementacije metoda !!!")
+
 	volume_relative_diff = first_file_h_metric.h_volume / second_file_h_metric.h_volume
 	if volume_relative_diff > 1:
 		volume_relative_diff = 1 / volume_relative_diff
@@ -132,8 +143,8 @@ def printHalsteadComparison(first_file_h_metric: MetricProfiler, second_file_h_m
 		print("Potrebno je podjednako vremena kako bi se datoteke razumjele te imaju istu ocjenu")
 
 
-def printHalsteadMetric(file_h_metric):
-	print("First file halstead :    (" +
+def printHalsteadMetric(file_h_metric, n):
+	print(str(n) + ". file halstead :    (" +
 	      str(file_h_metric.line_num) + ", " +
 	      str(file_h_metric.word_num) + ", " +
 	      str(file_h_metric.char_num) + ", " +
@@ -143,10 +154,10 @@ def printHalsteadMetric(file_h_metric):
 
 
 def printHalsteadSimilarity(first_file_h_metric, second_file_h_metric):
-	print("                         (lines, words, chars, h_len, h_vol, h_vocabulary)")
-	printHalsteadMetric(first_file_h_metric)
-	printHalsteadMetric(second_file_h_metric)
-	print("               delta :   (" +
+	print("                      (lines, words, chars, h_len, h_vol, h_vocabulary)")
+	printHalsteadMetric(first_file_h_metric, 1)
+	printHalsteadMetric(second_file_h_metric, 2)
+	print("           delta :    (" +
 	      str(abs(first_file_h_metric.line_num - second_file_h_metric.line_num)) + ", " +
 	      str(abs(first_file_h_metric.word_num - second_file_h_metric.word_num)) + ", " +
 	      str(abs(first_file_h_metric.char_num - second_file_h_metric.char_num)) + ", " +
@@ -155,7 +166,7 @@ def printHalsteadSimilarity(first_file_h_metric, second_file_h_metric):
 	      str(abs(first_file_h_metric.h_vocabulary - second_file_h_metric.h_vocabulary)) + ")")
 
 	physical_dif = first_file_h_metric.comparePhysicalProfileWith(second_file_h_metric)
-	print("Slicnost fizickog profila : " + str(round(physical_dif * 100, 3)) + "%")
+	# print("Slicnost fizickog profila : " + str(round(physical_dif * 100, 3)) + "%")
 
 
 def printCompositeSimilarity(winnowing_similarity, physical_similarity, halstead_similarity):
@@ -234,15 +245,13 @@ def compare():
 	if compare_method == ORIGINAL_vs_DECOMPILE:
 		printStatsGrade(sizeGrade, controlFlowStatementGrade)
 		printWinnowingSimilarity(winnowingOriginal, winnowingSecond, intersectionCounter)
-		printHalsteadSimilarity(first_file_h_metric, second_file_h_metric)
+		# printHalsteadSimilarity(first_file_h_metric, second_file_h_metric)
 
 		printHalsteadComparison(first_file_h_metric, second_file_h_metric)
 
 		winnowing_similarity = (float(intersectionCounter) / (float(len(winnowingOriginal)) + float(len(winnowingSecond))))
 		physical_similarity = first_file_h_metric.comparePhysicalProfileWith(second_file_h_metric)
-		halstead_similarity = first_file_h_metric.h_vocabulary / second_file_h_metric.h_vocabulary
-		if halstead_similarity > 1:
-			halstead_similarity = 1 / halstead_similarity
+		halstead_similarity = first_file_h_metric.compareHalsteadProfileWith(second_file_h_metric)
 		printCompositeSimilarity(winnowing_similarity, physical_similarity, halstead_similarity)
 
 	elif compare_method == DECOMPILED_FILES:

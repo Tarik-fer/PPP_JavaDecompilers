@@ -39,8 +39,8 @@ def isHalsteadOperand(token, literal):
 class MetricProfiler:
 	def __init__(self, file_contents):
 		self.original_content: str = file_contents
-		# self.processed_content = self.process(file_contents)
 		self.original_tokens = self.tokenize()  # tuple (token type, literal)
+		self.error_cunt = 0
 		self.char_num = self.countChars()
 		self.word_num = self.countWords()  # not implemented
 		self.line_num = self.countLines()
@@ -49,7 +49,6 @@ class MetricProfiler:
 		self.h_volume = 0
 		self.h_difficulty = 0
 		self.calculateHalsteadProfile()
-
 
 	def tokenize(self):
 		java_lexer = lexers.get_lexer_by_name("java")
@@ -81,7 +80,6 @@ class MetricProfiler:
 				continue
 			# print(literal)   #str(word_count) + ". " +
 			word_count += 1
-
 		return word_count
 
 	def countLines(self):  # ne brojati linije komentara
@@ -94,6 +92,8 @@ class MetricProfiler:
 				continue
 			if line.startswith("import"):
 				continue
+			if "throw new error" in line.lower():
+				self.error_cunt += 1
 			line_num += 1
 		return line_num
 
@@ -125,8 +125,8 @@ class MetricProfiler:
 				operator_dict[literal] += 1
 				operator_count += 1
 
-		print("Operators (unique, all) : " + str(len(operator_dict)) + ", " + str(operator_count))
-		print("Operand (unique, all) : " + str(len(operand_dict)) + ", " + str(operand_count))
+		# print("Operators (unique, all) : " + str(len(operator_dict)) + ", " + str(operator_count))
+		# print("Operand (unique, all) : " + str(len(operand_dict)) + ", " + str(operand_count))
 		self.h_length = operator_count + operand_count
 		self.h_vocabulary = len(operator_dict) + len(operand_dict)
 		self.h_volume = self.h_length * math.log2(self.h_vocabulary)
@@ -135,13 +135,6 @@ class MetricProfiler:
 
 	def comparePhysicalProfileWith(self, other):
 		other: MetricProfiler
-		line_dif = abs(self.line_num - other.line_num)
-		word_dif = abs(self.word_num - other.word_num)
-		char_dif = abs(self.char_num - other.char_num)
-
-		# line_precentage_dif = line_dif/self.line_num
-		# word_precentage_dif = word_dif/self.word_num
-		# char_precentage_dif = char_dif/self.char_num
 
 		line_precentage_dif = other.line_num / self.line_num
 		if line_precentage_dif > 1:
