@@ -1,0 +1,21 @@
+package hr.fer.zemris.java.raytracer;
+
+import java.util.concurrent.ForkJoinPool;
+
+public class RayCasterParallel2 {
+   public static void main(String[] var0) {
+      throw new Error("Unresolved compilation problems: \n\tRayTracerViewer cannot be resolved\n\tThe method getIRayTracerProducer() from the type RayCasterParallel2 refers to the missing type IRayTracerProducer\n\tThe method getIRayTracerAnimator() from the type RayCasterParallel2 refers to the missing type IRayTracerAnimator\n");
+   }
+
+   private static IRayTracerAnimator getIRayTracerAnimator() {
+      throw new Error("Unresolved compilation problems: \n\tIRayTracerAnimator cannot be resolved to a type\n\tIRayTracerAnimator cannot be resolved to a type\n\tThe method update(long) of type new IRayTracerAnimator(){} must override or implement a supertype method\n\tPoint3D cannot be resolved to a type\n\tThe method getViewUp() of type new IRayTracerAnimator(){} must override or implement a supertype method\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tThe method getView() of type new IRayTracerAnimator(){} must override or implement a supertype method\n\tPoint3D cannot be resolved to a type\n\tThe method getTargetTimeFrameDuration() of type new IRayTracerAnimator(){} must override or implement a supertype method\n\tPoint3D cannot be resolved to a type\n\tThe method getEye() of type new IRayTracerAnimator(){} must override or implement a supertype method\n\tPoint3D cannot be resolved to a type\n");
+   }
+
+   private static IRayTracerProducer getIRayTracerProducer() {
+      throw new Error("Unresolved compilation problems: \n\tIRayTracerProducer cannot be resolved to a type\n\tIRayTracerProducer cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tIRayTracerResultObserver cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tRayTracerViewer cannot be resolved\n");
+   }
+
+   static void izracunajParalelno(ForkJoinPool var0, short[] var1, short[] var2, short[] var3, Point3D var4, Point3D var5, Point3D var6, Point3D var7, Scene var8, int var9, int var10, Point3D var11, double var12, double var14) {
+      throw new Error("Unresolved compilation problems: \n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tPoint3D cannot be resolved to a type\n\tRay cannot be resolved to a type\n\tRay cannot be resolved\n\tPoint3D cannot be resolved to a type\n\tScene cannot be resolved to a type\n");
+   }
+}

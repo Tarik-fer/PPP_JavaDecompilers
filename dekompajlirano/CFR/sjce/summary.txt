@@ -1,0 +1,9 @@
+Summary for C:\Users\Tarik\OneDrive - fer.hr\FAKS\6. semestar\Završni rad\Testiranje\PPP_JavaDecompilers\test_programi\sjce_08-08-18_bin\sjce.jar
+Decompiled with CFR 0.148
+
+
+SJCE.xgui.Agent.EngineAgentExt
+----------------------------
+
+userMove(SJCE.xgui.Move )
+  Unable to fully structure code
